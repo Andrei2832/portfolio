@@ -1,0 +1,12 @@
+<div class="header" (scroll)="onScroll()" [ngClass]="navBarFixed?'fixed':'noFixed'">
+  <span>A. Stasenko</span>
+  <ul (click)="goAngular($event.target)">
+    <li><a id="home">home</a></li>
+    <li><a id="about">about me</a></li>
+    <li><a id="skills">skills</a></li>
+    <li><a id="portfolio">portfolio</a></li>
+    <li><a id="contact">contact</a></li>
+  </ul>
+</div>
+
+
